@@ -1,0 +1,24 @@
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+    cursor: pointer;
+}
+
+input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn, select.bae-form__control, textarea.bae-form__control, outgroup.bae-form__control, input[type="text"].bae-form__control {
+    text-transform: none;
+    color: #000;
+    font: inherit;
+    margin: 0;
+}
+
+input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+    @include font-size($p-font-sizes);
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border: 0;
+    background-color: #fff;
+    color: #000;
+}

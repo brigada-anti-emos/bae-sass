@@ -1,0 +1,24 @@
+{
+  "name": "bae-sass",
+  "version": "0.1.0",
+  "description": "Bae SASS library",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/brigada-anti-emos/bae-sass.git"
+  },
+  "author": "Brigada Anti Emos <bae@keemail.me>",
+  "license": "FUCKING PRIVATE",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10"
+  }
+}

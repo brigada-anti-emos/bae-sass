@@ -1,0 +1,75 @@
+/*
+ * Default Stylesheet
+ */
+#tail {
+  position: absolute;
+  float: left;
+  min-width: 20px;
+  min-height: 20px;
+  border: dotted;
+  border-width: 1px;
+  display: none; }
+
+#enable-show {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  min-height: 20px;
+  min-width: 20px;
+  background-color: red;
+  z-index: 9999; }
+
+.bae-clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.ps-brand {
+  color: green;
+  font-weight: bold; }
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn, select.bae-form__control, textarea.bae-form__control, outgroup.bae-form__control, input[type="text"].bae-form__control {
+  text-transform: none;
+  color: #000;
+  font: inherit;
+  margin: 0; }
+
+input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+  font-size: 15px;
+  line-height: 1.3;
+  padding: 1px 6px;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  padding: 2px 6px 3px;
+  border: 0;
+  background-color: #fff;
+  color: #000; }
+  @media screen and (min-width: 480px) {
+    input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+      font-size: 16px; } }
+  @media screen and (min-width: 700px) {
+    input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+      font-size: 17px;
+      line-height: 1.4; } }
+  @media screen and (min-width: 900px) {
+    input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+      font-size: 18px; } }
+  @media screen and (min-width: 1024px) {
+    input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+      font-size: 19px;
+      line-height: 1.45; } }
+  @media screen and (min-width: 1440px) {
+    input[type="button"].bae-btn, input[type="submit"].bae-btn, input[type="reset"].bae-btn, input[type="file"]::-webkit-file-upload-button.bae-btn, button.bae-btn {
+      font-size: 20px; } }
+
+.bae-form--horizontal > .bae-form__group {
+  display: inline-block; }
+
+.bae-form--horizontal > .bae-btn {
+  display: inline-block; }

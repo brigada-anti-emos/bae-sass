@@ -1,0 +1,39 @@
+/*
+ * Default Stylesheet
+ */
+
+
+#tail  {
+    position: absolute;
+    float: left;
+    min-width: 20px;
+    min-height: 20px;
+    border: dotted;
+    border-width: 1px;
+    display: none;
+}
+
+#enable-show {
+	position: absolute;
+	right:20px;
+	top:100px;
+	min-height: 20px;
+	min-width: 20px;
+	background-color: red;
+	z-index: 9999;
+}
+
+.bae-clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.ps-brand {
+    color: green;
+    font-weight: bold;
+}
+
+@import "_import";
